@@ -1,12 +1,9 @@
-function diceRoll10(a){
+function diceRoll(a){
     if(a == 6){
-        diceRoll6Display();
+        return diceRoll6();
     }
     else if (a == 10){
-        diceRoll10(Display());
-    }
-    else{
-        
+        return diceRoll10();
     }
 }
 
@@ -23,10 +20,38 @@ function numberGenerator(min,max){
 }
 
 function diceRoll6Display(){
-    //console.log(diceRoll6()); Display to verify functionality
-    document.getElementById("roll").innerHTML = diceRoll6(); //For displaying in HTML using Button 
+    console.log(diceRoll6()); //Display to verify functionality
+    document.getElementById("roll").innerHTML = diceRoll(6); //For displaying in HTML using Button 
 }
 function diceRoll10Display(){
-    //console.log(diceRoll10()); Display to verify functionality
-    document.getElementById("roll2").innerHTML = diceRoll10(); //For displaying in HTML using Button
+    console.log(diceRoll10()); //Display to verify functionality
+    document.getElementById("roll2").innerHTML = diceRoll(10); //For displaying in HTML using Button
 }
+
+function diceRollDisplay(a){
+    if (a == 6){
+        diceRoll6Display();
+    }
+    else if (a == 10){
+        diceRoll10Display();
+    }
+}
+
+function testing(){
+    /*Attempting to break code. 
+    The parameter dicates the call function. 
+    Parameter needs to be number value. 
+    If value is anything other than 6 or 10. 
+    Invalid output is retrieved. 
+    Solution: Force entry as 6 or 10. If not then display error*/
+    
+    //diceRollDisplay(8); //Display Undefined
+    //diceRollDisplay("!"); //Displayed Undefined 
+    //diceRollDisplay("-"); //
+}
+
+console.log(testing());
+diceRollDisplay("-");
+console.log(typeof("5"));
+
+
