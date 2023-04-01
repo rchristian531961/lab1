@@ -1,12 +1,9 @@
 function diceRoll(a){
     if(a == 6){
-        diceRoll6Display();
+        return diceRoll6();
     }
     else if (a == 10){
-        diceRoll10(Display());
-    }
-    else{
-        
+        return diceRoll10();
     }
 }
 
@@ -24,9 +21,9 @@ function numberGenerator(min,max){
 
 function diceRoll6Display(){
     //console.log(diceRoll6()); Display to verify functionality
-    document.getElementById("roll").innerHTML = diceRoll6(); //For displaying in HTML using Button 
+    document.getElementById("roll").innerHTML = diceRoll(6); //For displaying in HTML using Button 
 }
 function diceRoll10Display(){
     //console.log(diceRoll10()); Display to verify functionality
-    document.getElementById("roll2").innerHTML = diceRoll10(); //For displaying in HTML using Button
+    document.getElementById("roll2").innerHTML = diceRoll(10); //For displaying in HTML using Button
 }
