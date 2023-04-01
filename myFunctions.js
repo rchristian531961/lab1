@@ -1,4 +1,4 @@
-function diceRoll10(a){
+function diceRoll(a){
     if(a == 6){
         diceRoll6Display();
     }
