@@ -20,23 +20,22 @@ function numberGenerator(min,max){
 }
 
 function diceRoll6Display(){
-    //console.log(diceRoll6()); //Display to verify functionality
+
+    //console.log(diceRoll6()); Display to verify functionality
     document.getElementById("roll").innerHTML = diceRoll(6); //For displaying in HTML using Button 
 }
 function diceRoll10Display(){
-    //console.log(diceRoll10()); //Display to verify functionality
+    //console.log(diceRoll10()); Display to verify functionality
     document.getElementById("roll2").innerHTML = diceRoll(10); //For displaying in HTML using Button
 }
-
 function diceRollDisplay(a){
     if (a == 6){
         diceRoll6Display();
     }
     else if (a == 10){
         diceRoll10Display();
-    }
+    }   
 }
-
 function testing(){
     /*Attempting to break code. 
     The parameter dicates the call function. 
@@ -50,8 +49,5 @@ function testing(){
     //diceRollDisplay("-"); //Displayed Undefined
 }
 
-console.log(testing());
-diceRollDisplay("-");
-console.log(typeof("5"));
 
 
