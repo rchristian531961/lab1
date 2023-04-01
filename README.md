@@ -11,3 +11,7 @@ for rolling the dice, committing and merging when completed.
 reutilise the same function multiple times
 • Write a test for the roll dice functionality.
 • When complete, push the content to your git repository
+
+Project incorporated multiple skills. Decided to practice styling on personal website for Lab2. 
+The Git hub uploading with (Pull request) was most challenging. Understanding how it was working and corrections to modify. 
+Overall, incorporated multiple skills needed such as functions and git. 
