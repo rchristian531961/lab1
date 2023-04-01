@@ -27,3 +27,13 @@ function diceRoll10Display(){
     //console.log(diceRoll10()); Display to verify functionality
     document.getElementById("roll2").innerHTML = diceRoll(10); //For displaying in HTML using Button
 }
+
+function diceRollDisplay(a){
+    if (a == 6){
+        diceRoll6Display();
+    }
+    else if (a == 10){
+        diceRoll10Display();
+    }
+    
+}
