@@ -37,3 +37,7 @@ function diceRollDisplay(a){
     }
     
 }
+
+function testing(){
+    
+}
